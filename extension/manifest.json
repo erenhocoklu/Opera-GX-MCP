@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Opera MCP Bridge",
+  "version": "0.1.0",
+  "description": "Connects Opera GX to Claude Code via WebSocket",
+  "permissions": ["activeTab", "scripting", "tabs", "debugger"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
